@@ -1,0 +1,22 @@
+[RESOURCES]
+Bus
+Jeepney
+[VARIABLES]
+Process boarding and travel by Bus Off Peak.NumberIn
+Process boarding and travel by Bus Off Peak.NumberOut
+Decide Jeepney or Bus PeakHours.NumberOut True
+Decide Jeepney or Bus PeakHours.NumberOut False
+Dispose 2.NumberOut
+Decide Jeepney or Bus OffPeakHours.NumberOut False
+Students Peak Hours.NumberOut
+Dispose 1.NumberOut
+Dispose 4.NumberOut
+Process boarding and travel by Jeepney Off Peak.NumberIn
+Process boarding and travel by Jeepney Off Peak.NumberOut
+Decide Jeepney or Bus OffPeakHours.NumberOut True
+Process boarding and travel by Bus Peak.NumberIn
+Process boarding and travel by Bus Peak.NumberOut
+Students Off Peak Hours.NumberOut
+Dispose 3.NumberOut
+Process boarding and travel by Jeepney Peak.NumberIn
+Process boarding and travel by Jeepney Peak.NumberOut

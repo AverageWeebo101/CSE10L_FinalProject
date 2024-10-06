@@ -1,0 +1,78 @@
+
+                                      ARENA Simulation Results
+                             renorjrbenito@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: CSE10L-Final_Project                                        Run execution date :10/ 6/2024
+Analyst: renorjrbenito@gmail.com                                     Model revision date:10/ 6/2024
+
+Replication ended at time      : 720.0 Hours (Friday, November 01, 2024, 00:00:00)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally Jeepney Travel Peak                   .95117     (Corr)     .26578     2.3834      20591    
+Tally Bus Boarding Off Peak                 .37764     .00749     .25006     .49913        549    
+Tally Bus Boarding Peak                     .75036     .00478     .50733     .98696       2421    
+Tally Jeepney Boarding Peak                 .95117     (Corr)     .26578     2.3834      20591    
+Tally Jeepney Boarding Off Peak             .53873     (Corr)     .08364     1.6160       4897    
+Tally Bus Travel Peak                       .75036     .00478     .50733     .98696       2421    
+Tally Bus Travel Off Peak                   .37764     .00749     .25006     .49913        549    
+Tally Jeepney Travel Off Peak               .53873     (Corr)     .08364     1.6160       4897    
+Student Off Peak.VATime                     .18763     .00232     .08335     .49913       5446    
+Student Off Peak.NVATime                    .00000     .00000     .00000     .00000       5446    
+Student Off Peak.WaitTime                   .33486     (Corr)     .00000     1.3874       5446    
+Student Off Peak.TranTime                   .00000     .00000     .00000     .00000       5446    
+Student Off Peak.OtherTime                  .00000     .00000     .00000     .00000       5446    
+Student Off Peak.TotalTime                  .52249     (Corr)     .08364     1.6160       5446    
+Student Peak.VATime                         .60146     .00274     .25112     .99775      23012    
+Student Peak.NVATime                        .00000     .00000     .00000     .00000      23012    
+Student Peak.WaitTime                       .32858     (Corr)     .00000     1.4388      23012    
+Student Peak.TranTime                       .00000     .00000     .00000     .00000      23012    
+Student Peak.OtherTime                      .00000     .00000     .00000     .00000      23012    
+Student Peak.TotalTime                      .93004     (Corr)     .26578     2.3834      23012    
+Process boarding and travel by Jeepney Off  .37236     (Corr)     .00000     1.3874       4898    
+Process boarding and travel by Bus Peak.Qu  .00000     .00000     .00000     .00000       2423    
+Process boarding and travel by Jeepney Pea  .36702     (Corr)     .00000     1.4388      20608    
+Process boarding and travel by Bus Off Pea  .00000     .00000     .00000     .00000        549    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Student Off Peak.WIP                        3.9524     (Corr)     .00000     17.000     2.0000    
+Student Peak.WIP                            29.737     (Corr)     .00000     59.000     22.000    
+Bus.NumberBusy                              2.8126     .13092     .00000     11.000     2.0000    
+Bus.NumberScheduled                         44.000     (Insuf)    44.000     44.000     44.000    
+Bus.Utilization                             .06392     .00298     .00000     .25000     .04545    
+Jeepney.NumberBusy                          17.838     .08296     .00000     18.000     18.000    
+Jeepney.NumberScheduled                     18.000     (Insuf)    18.000     18.000     18.000    
+Jeepney.Utilization                         .99103     .00461     .00000     1.0000     1.0000    
+Process boarding and travel by Jeepney Off  2.5332     (Corr)     .00000     14.000     1.0000    
+Process boarding and travel by Bus Peak.Qu  .00000     (Insuf)    .00000     .00000     .00000    
+Process boarding and travel by Jeepney Pea  10.505     (Corr)     .00000     40.000     3.0000    
+Process boarding and travel by Bus Off Pea  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Student Off Peak.NumberIn                   5448.0    
+Student Off Peak.NumberOut                  5446.0    
+Student Peak.NumberIn                       23034.    
+Student Peak.NumberOut                      23012.    
+Bus.NumberSeized                            2972.0    
+Bus.ScheduledUtilization                    .06392    
+Jeepney.NumberSeized                        25506.    
+Jeepney.ScheduledUtilization                .99103    
+System.NumberOut                            28458.    
+
+
+Simulation run time: 2.12 minutes.
+Simulation run complete.
